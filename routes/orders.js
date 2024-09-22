@@ -1,7 +1,7 @@
 const router = require('express').Router();
 const { Order } = require('../models/order');
 const Joi = require('joi');
-const mongoose = require('mongoose');
+
 
 // POST route to handle order submissions
 router.post('/', async (req, res) => {
